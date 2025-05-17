@@ -11,8 +11,11 @@ Clean and informative terminal output
 Simple CLI interface with help and usage examples
 
 📌 Usage
+
 ```sudo python3 brute.py -u users.txt -p passwords.txt -c config.ovpn```
+
 To continue brute-forcing after a valid login is found:
+
 ```sudo python3 brute.py -u users.txt -p passwords.txt -c config.ovpn --cont```
 
 ![image](https://github.com/user-attachments/assets/6a8888d9-860d-4508-a596-9af1561a11b9)
