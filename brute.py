@@ -72,7 +72,6 @@ def main():
         except Exception as e:
             print(f"[!] Exception: {e}")
 
-    # Summary of successful attempts
     if successes:
         print("\n========== VALID CREDENTIALS ==========")
         for user, pwd in successes:
